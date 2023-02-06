@@ -4,12 +4,7 @@ export const BookContext = createContext();
 
 const BookContextProvider = (props) => {
 
-    const [books, setBooks] = useState([{
-
-        title: 'Send email for the new initiative',
-        author: 'deadline is by eod tomorrow',
-        id: 1
-    }]);
+    const [books, setBooks] = useState([]);
 
 
     const addBook = (title, author) => {
